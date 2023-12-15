@@ -1,4 +1,4 @@
-module flat_sided_torise(radius, length, toroid_radius) {
+module flat_sided_torus(radius, length, toroid_radius) {
 	union(){
 		translate([-length/2,radius,0])stright(toroid_radius, length);
 		rotate([0,0,180]) translate([-length/2,radius,0])stright(toroid_radius, length);
